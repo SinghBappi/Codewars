@@ -4,6 +4,9 @@
 using namespace std;
 vector<int> countPositivesSumNegatives(vector<int> input)
 {
+     if (input.empty()) return {};  // Return empty vector if input is empty
+//Looks like Test3 is failing because your function is returning [0, 0] instead of an empty vector []. This could happen if your input list is empty.
+
     // go for it!
 //   int arr[];
   
